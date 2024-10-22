@@ -25,6 +25,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
+![Uploading Screenshot 2024-10-22 at 3.33.52 PM.png…]()
 
 ![](./screenshot.jpg)![Screenshot 2024-10-22 at 3.33.52 PM.png](..%2F..%2F..%2FDesktop%2FScreenshot%202024-10-22%20at%203.33.52%20PM.png)
 
