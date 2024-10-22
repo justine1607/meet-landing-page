@@ -1,0 +1,75 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+:root{
+  --color-white--100:#ffff;
+  --color-slate-900:#28283D;
+  --color-slate-600:#87879D;
+  --color-cyan-600:#4D96A9;
+  --color-cyan-300:#8FE3F9;
+  --color-cyan-hover-300:#71C0D4;;
+  --color-purple-600:#855FB1;
+  --color-purple-hover-600:#B18BDD;
+  --color-purple-300:#D9B8FF;
+  --color-slate-300:#D1D1DF;
+}
+
+body{
+  color: var(--color-slate-600);
+  font-size:1rem;
+  font-weight: 500;
+  font-family: "Red Hat Display";
+  min-height: 100vh;
+  line-height: 1.5rem;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+h1,h2,h3,h4,h5,h6{
+  text-wrap: balance;
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+
+/* Reset table border collapse */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset anchor text decoration */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set images to display block */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove button borders and default styling */
+button, input, textarea {
+  background: none;
+  border: none;
+  font-family: inherit;
+}
