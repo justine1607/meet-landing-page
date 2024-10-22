@@ -2,6 +2,7 @@
   margin: 0;padding: 0;box-sizing: border-box;
 }
 :root{
+  //color
   --color-white--100:#ffff;
   --color-slate-900:#28283D;
   --color-slate-600:#87879D;
@@ -12,6 +13,24 @@
   --color-purple-hover-600:#B18BDD;
   --color-purple-300:#D9B8FF;
   --color-slate-300:#D1D1DF;
+
+//  font weight
+  --heading--900: 900;
+
+//  font-size
+  --heading-lg--64:4rem;
+  --heading-tb--48:3rem;
+  --heading-mb--40:2.5rem;
+  --blue-text-lg--16:16px;
+  --blue-text-td--14:0.875rem;
+  --blue-text-mb--14:0.75rem;
+  --subheading-lg-40:2.5rem;
+  --subheading-tb-36:2.25rem;
+  --subheading-mb-32:2rem;
+  --footer-heading-lg--40:2.5rem;
+  --footer-heading-tb--36:2.25rem;
+  --footer-heading-mb--32:2rem;
+  --text-lg--18:1.125rem
 }
 
 body{

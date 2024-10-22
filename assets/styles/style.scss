@@ -21,7 +21,7 @@
   display: flex;flex-direction: column;gap: 1.5rem;text-align: center;
   h2{
     color: var(--color-slate-900);
-    font-size:2.5rem;
+    font-size:var( --heading-mb--40);
     font-weight: 900;
     line-height: 2.75rem;
   }
@@ -99,7 +99,7 @@
   text-align: center;
   .blue-text{
     color: var(--color-cyan-600);
-    font-size: 12px;
+    font-size: var(--blue-text-mb--14);
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: 900;
@@ -108,7 +108,7 @@
   h2{
     padding: 1rem 0 2rem;
     color: var(--color-slate-900);
-    font-size: 2rem;
+    font-size:var(--subheading-mb-32) ;
     font-weight: 900;
     line-height: 2.2rem;
   }
@@ -145,7 +145,7 @@
   }
   h2{
     color: var(--color-white--100);
-    font-size: 2rem;
+    font-size: var( --footer-heading-mb--32);
     font-weight: 900;
     line-height: 2.2rem;
   }
@@ -181,7 +181,7 @@
   .text-container{
   max-width: 28.01rem;
     h2{
-      font-size: 3rem;
+      font-size:var( --heading-tb--48) ;
       line-height: 3.3rem;
     }
   }
@@ -194,8 +194,11 @@
   .main-text-container{
     max-width: 27.81rem;
     margin: 0 auto;
+    .blue-text{
+      font-size: var(--blue-text-td--14);
+    }
     h2{
-      font-size: 2.25rem;
+      font-size: var(--subheading-tb-36);
       line-height: 2.2rem;
     }
   }
@@ -212,7 +215,7 @@
       max-width: 31.5rem;
       margin: 0 auto;
       h2{
-        font-size: 2.25rem;
+        font-size:var(--footer-heading-tb--36);
         line-height: 2.475rem;
       }
     }
@@ -232,11 +235,11 @@
     max-width: 28.01rem;
     margin: unset;
     h2{
-      font-size: 4rem;
+      font-size:var( --heading-lg--64);
       line-height: 4.4rem;
     }
     p{
-      font-size: 1.125rem;
+      font-size: var(--text-lg--18);
     }
   }
   .desktop-right-people, .desktop-left-people{
@@ -261,12 +264,12 @@
   .main-text-container{
     max-width: 34rem;
     margin: 0 auto;
-    .blue-text{
-      font-size: 1rem;
-    }
     h2{
-      font-size: 2.5rem;
+      font-size: var(--subheading-lg-40);
       line-height: 2.75rem;
+    }
+    p{
+      font-size: var(--text-lg--18);
     }
   }
   .card-images{gap: 2rem;}
@@ -281,10 +284,13 @@
       margin: 0 auto;
       display: flex;
       text-align: left;
-    }
-    h2{
-      font-size: 2.5rem;
+      h2{
+      font-size: var(--footer-heading-lg--40);
       line-height: 2.75rem;
+      }
+      p{
+        font-size: var(--text-lg--18);
+      }
     }
     .tablet-footer-img{
       display: none;

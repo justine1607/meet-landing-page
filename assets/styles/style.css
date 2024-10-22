@@ -38,7 +38,7 @@
 }
 .text-container h2 {
   color: var(--color-slate-900);
-  font-size: 2.5rem;
+  font-size: var(--heading-mb--40);
   font-weight: 900;
   line-height: 2.75rem;
 }
@@ -131,7 +131,7 @@
 }
 .main-text-container .blue-text {
   color: var(--color-cyan-600);
-  font-size: 12px;
+  font-size: var(--blue-text-mb--14);
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: 900;
@@ -140,7 +140,7 @@
 .main-text-container h2 {
   padding: 1rem 0 2rem;
   color: var(--color-slate-900);
-  font-size: 2rem;
+  font-size: var(--subheading-mb-32);
   font-weight: 900;
   line-height: 2.2rem;
 }
@@ -184,7 +184,7 @@
 }
 .footer-hero h2 {
   color: var(--color-white--100);
-  font-size: 2rem;
+  font-size: var(--footer-heading-mb--32);
   font-weight: 900;
   line-height: 2.2rem;
 }
@@ -220,7 +220,7 @@
     max-width: 28.01rem;
   }
   .text-container h2 {
-    font-size: 3rem;
+    font-size: var(--heading-tb--48);
     line-height: 3.3rem;
   }
   .cta-container {
@@ -234,8 +234,11 @@
     max-width: 27.81rem;
     margin: 0 auto;
   }
+  .main-text-container .blue-text {
+    font-size: var(--blue-text-td--14);
+  }
   .main-text-container h2 {
-    font-size: 2.25rem;
+    font-size: var(--subheading-tb-36);
     line-height: 2.2rem;
   }
   .footer-hero .mobile-footer-img {
@@ -249,7 +252,7 @@
     margin: 0 auto;
   }
   .footer-hero .text-last-container h2 {
-    font-size: 2.25rem;
+    font-size: var(--footer-heading-tb--36);
     line-height: 2.475rem;
   }
 }
@@ -268,11 +271,11 @@
     margin: unset;
   }
   .text-container h2 {
-    font-size: 4rem;
+    font-size: var(--heading-lg--64);
     line-height: 4.4rem;
   }
   .text-container p {
-    font-size: 1.125rem;
+    font-size: var(--text-lg--18);
   }
   .desktop-right-people, .desktop-left-people {
     display: block;
@@ -298,12 +301,12 @@
     max-width: 34rem;
     margin: 0 auto;
   }
-  .main-text-container .blue-text {
-    font-size: 1rem;
-  }
   .main-text-container h2 {
-    font-size: 2.5rem;
+    font-size: var(--subheading-lg-40);
     line-height: 2.75rem;
+  }
+  .main-text-container p {
+    font-size: var(--text-lg--18);
   }
   .card-images {
     gap: 2rem;
@@ -320,9 +323,12 @@
     display: flex;
     text-align: left;
   }
-  .footer-hero h2 {
-    font-size: 2.5rem;
+  .footer-hero .text-last-container h2 {
+    font-size: var(--footer-heading-lg--40);
     line-height: 2.75rem;
+  }
+  .footer-hero .text-last-container p {
+    font-size: var(--text-lg--18);
   }
   .footer-hero .tablet-footer-img {
     display: none;
